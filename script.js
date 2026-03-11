@@ -633,5 +633,20 @@ function preloadImages() {
     });
 }
 
+const music = document.getElementById("bgMusic");
+const btn = document.getElementById("musicBtn");
+
+music.volume = 0.2;
+
+btn.addEventListener("click", () => {
+    if (music.paused) {
+        music.play();
+        btn.textContent = "🔊";
+    } else {
+        music.pause();
+        btn.textContent = "🔇";
+    }
+});
+
 // Preload images after page load
 window.addEventListener('load', preloadImages);
