@@ -234,7 +234,9 @@ async function initJadwal() {
 
     try {
         // Fetch schedule data from JSON
-        const response = await fetch('data/schedule.json');
+        const response = await fetch(`data/schedule.json?v=${Date.now()}`, {
+    cache: "no-store"
+});
         if (response.ok) {
             scheduleData = await response.json();
         }
