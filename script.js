@@ -282,7 +282,7 @@ function processScheduleData(scheduleData, jadwalContainer, slotContainer, total
 
     // Calculate statistics
     const totalAntrian = activeSchedules.length;
-    const maxSlotsPerWeek = 30;
+    const maxSlotsPerWeek = 20;
     const slotTersedia = Math.max(0, maxSlotsPerWeek - totalAntrian);
     const nextUpload = activeSchedules.length > 0 ? activeSchedules[0] : null;
 
