@@ -227,7 +227,7 @@ async function initJadwal() {
         { date: '2026-03-16', day: 'Senin', server: 'Trinity Indonesia', platform: 'TikTok', time: '18:00' },
         { date: '2026-03-17', day: 'Selasa', server: 'Nexoverse', platform: 'TikTok + YouTube', time: '18:00' },
         { date: '2026-03-18', day: 'Rabu', server: 'Nexoverse', platform: 'TikTok', time: '18:00' },
-        { date: '2026-03-27', day: 'Senin', server: 'Survborn', platform: 'TikTok', time: '18:00' }
+        { date: '2026-03-27', day: 'Senin', server: 'Survborn', platform: 'TikTok', time: '18:00' },
         { date: '2026-03-27', day: 'Jumat', server: 'Iciki Network', platform: 'TikTok', time: '18:00' }
     ];
 
